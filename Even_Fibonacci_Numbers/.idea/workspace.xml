@@ -1,67 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="714a3d4d-f74c-430a-9a4d-e8eb187a103c" name="Default Changelist" comment="" />
+    <list default="true" id="714a3d4d-f74c-430a-9a4d-e8eb187a103c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/EvenFibonacciNumbers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/out/production/EvenFibonacciNumbers/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EvenFibonacciNumbers/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1fvo3THKVJqk2qvaz5gcEezmxQi" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -90,5 +61,31 @@
       <updated>1597107733721</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1699" y="445" key="FileChooserDialogImpl" timestamp="1597108749197">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1699" y="445" key="FileChooserDialogImpl/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108749197" />
+    <state width="1220" height="394" key="GridCell.Tab.0.bottom" timestamp="1597108849431">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1220" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108849431" />
+    <state width="1220" height="394" key="GridCell.Tab.0.center" timestamp="1597108849431">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1220" height="394" key="GridCell.Tab.0.center/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108849431" />
+    <state width="1220" height="394" key="GridCell.Tab.0.left" timestamp="1597108849431">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1220" height="394" key="GridCell.Tab.0.left/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108849431" />
+    <state width="1220" height="394" key="GridCell.Tab.0.right" timestamp="1597108849431">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1220" height="394" key="GridCell.Tab.0.right/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108849431" />
+    <state x="1302" y="279" key="new project wizard" timestamp="1597108778918">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1302" y="279" key="new project wizard/0.0.2560.1410/-1920.0.1920.1050@0.0.2560.1410" timestamp="1597108778918" />
   </component>
 </project>
