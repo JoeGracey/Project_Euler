@@ -16,5 +16,12 @@ public class Main {
 
 
         long prime = 600851475143L;
+
+        for(long i = 0L; i < 10; i++) {
+            if(prime % i == 0) {
+                System.out.println(prime);
+            }
+            i++;
+        }
     }
 }
