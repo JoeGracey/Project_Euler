@@ -24,58 +24,48 @@ public class Main {
            4. Divide the input by 10, (removing the rightmost digit). (1234 / 10) = 123
            5. Repeat at step 1 with 123. */
 
-        /* Not sure where in the scope to use these variables: */
-           int modulusOfPalindromicNum;
-           int reversedPalindromicNum;
-           int palindromicNum;
+        public static void Run() {
 
-        // Multiplying the two 3-digit numbers
-        for (int i = 9; i > 2; i--) {
-            for (int k = 9; k > 2; k--) {
-                reversedPalindromicNum = 0;
-                palindromicNum = i * k;
+            int maxPalindrome = 0;
 
-                System.out.println("palindromicNum: " + palindromicNum);
+            int i = 0;
+            int j = 0;
 
-                // Extract off rightmost digit
-                modulusOfPalindromicNum = palindromicNum % 10;
-                System.out.println("modulusOfPalindromicNum: " + modulusOfPalindromicNum);
+            for(i = 999; i > 99; i--) {
+                for(j = 999; j >= i; j--) {
+                    int product = i * j;
 
-                // Take that digit and add it to a new variable
-                reversedPalindromicNum += modulusOfPalindromicNum;
-                System.out.println("reversedPalindromicNum: " + reversedPalindromicNum);
+                    if(isPalindrome(product)) {
+                        maxPalindrome = product;
+                        String text = "Largest palindrome is: %s x %s = %s";
+                        System.out.printf(text, i, j, maxPalindrome);
 
-                // Multiply new variable by 10
-                reversedPalindromicNum *= 10;
-                System.out.println("reversedPalindromicNum: " + reversedPalindromicNum);
+                        break;
+                    }
+                }
 
-                // Divide original variable by 10
-                palindromicNum /= 10;
-                System.out.println("palindromicNum: " + palindromicNum);
-                System.out.println("----------------------------------------------");
+                if(maxPalindrome != 0) {
+                    break;
+                }
             }
+
+
         }
 
+        static boolean isPalindrome(int number) {
+            int numberAux = number;
+            int reversedNumber = 0;
 
+            while(numberAux > 0) {
+                int rightDigit = numberAux % 10;
+                reversedNumber = reversedNumber * 10 + rightDigit;
+                numberAux = numberAux / 10;
+            }
 
-//        public static int createPalindrome() {
-//            for(int i = 999; i > 100; i--) {
-//                for(int j = 999; j > 100; j--) {
-//                    int prod = i*j;
-//                    String s = Integer.toString(prod);
-//                    String s2 = new StringBuffer(s).reverse().toString();
-//                    if(s.equals(s2)) {
-//                        return prod;
-//                    }
-//                }
-//            }
-//            return 0;
-//        }
-//
-//        public static void main(String[] args){
-//            int answer = createPalindrome();
-//            System.out.println(answer);
-//        }
+            return number == reversedNumber;
+
+        }
+
     }
 }
 
